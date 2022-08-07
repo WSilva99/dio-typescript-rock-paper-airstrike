@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedra - Papel - Ataque Aéreo</title>
+  <link rel="stylesheet" href="dist/style.css">
+  <script src="dist/script.js" defer></script>
+</head>
+<body>
+  <div id="score">
+    Jogador [ 0 ] : [ 0 ] Computador
+  </div>
+  <div id="header">
+    <h1>Pedra - Papel - Ataque Aéreo</h1>
+    <p>Selecione entre Pedra, Papel, ou Ataque Aéreo e veja se você consegue vencer o computador!</p>
+  </div>
+  <div id="game">
+    <div id="result"></div>
+    <div id="choices">
+      <button type="button" class="btn">PEDRA</button>
+      <button type="button" class="btn">PAPEL</button>
+      <button type="button" class="btn">ATAQUE AÉREO</button>
+    </div>
+  </div>
+  <div id="rules-info">
+    <p><strong>Lembre:</strong></p>
+    <ul id="rules">
+      <li>Ataque Aéreo vs. Pedra: Neste caso, o jogador com o Ataque Aéreo derrota o jogador com a Pedra, por razões óbvias.</li>
+      <li>Pedra vs. Papel: Neste caso, o jogador com a Pedra derrota o com Papel, porque a Pedra machuca muito mais.</li>
+      <li>Papel vs. Ataque Aéreo: Aqui o Ataque Aéreo ganha, porque Ataque Aéreo sempre ganha e o Papel é patético.</li>
+      <li>Papel vs. Papel: Nesta variação, ambos os jogadores ganham, porque o Papel é inútil e ninguém que enfrenta o Papel pode perder.</li>
+      <li>Pedra vs. Pedra: Para este caso não há ganhador, porque depende do que os jogadores decidem fazer com a Pedra e normalmente não fazem nada.</li>
+      <li>Ataque Aéreo vs. Ataque Aéreo: Quando isto acontece, todos os jogadores perdem, devido a Aniquilação Mútua.</li>
+    </ul>
+  </div>
+</body>
+</html>
